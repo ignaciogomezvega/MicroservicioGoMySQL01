@@ -186,7 +186,7 @@ func main() {
 	fmt.Println("Microservicio de productos iniciado")
 
 	// Conectar a la base de datos
-	db, err := sql.Open("mysql", "root:Redragon 01@tcp(localhost:3306)/products_db")
+	db, err := sql.Open("")
 	if err != nil {
 		log.Fatal(err)
 	}
